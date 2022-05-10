@@ -85,7 +85,7 @@ const loadEvent = function (parameter1) {
         console.log(event.currentTarget);
 
         event.currentTarget.insertAdjacentHTML("beforeend", "Clicked")
-
+        // esemény figyelő
         event.currentTarget.classList.toggle(`<span>Clicked <
         /span>`)
     })
